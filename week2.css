@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    padding: 2%;
+    box-sizing:border-box;
+}
+*:focus{
+    outline:auto;
+}
+body{
+    background-color:lightgrey;
+    background-image:url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+    color:darkblue;
+    font-style: italic;
+    font-weight: 300;
+}
+label{ 
+    font-family: 'Arial', sans-serif;
+    color:darkred;
+}
+fieldset{
+    background-color:transparent;
+    color:darkorange;
+    border-color: black;
+}
+legend{
+    font-weight:bolder;
+    font-size: larger;
+}
+input{
+    background-color: lightgoldenrodyellow;
+    color:black;
+    border-radius: 5px ;
+}
+input[type="submit"]{
+    background-color:darkgreen;
+}
+input[type="reset"]{
+    background-color:darkred;
+}
